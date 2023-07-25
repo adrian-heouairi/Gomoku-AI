@@ -1,0 +1,26 @@
+/* Donne des bords noirs à la grille de jeu */
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Les div contenus dans les cases de la grille de jeu seront des ronds pour représenter les pions */
+div {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+/* Le rond présent dans les cases vides est blanc donc invisible */
+div.vide {
+    background-color: white;
+}
+
+div.joueur1 {
+    background-color: cyan;
+}
+
+div.joueur2 {
+    background-color: pink;
+}
